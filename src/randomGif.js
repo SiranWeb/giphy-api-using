@@ -1,7 +1,7 @@
-const app           = document.querySelector('#app');
-const getGifBtn     = document.querySelector('#getGif');
-const imgRandomGif  = document.querySelector('#randomGif');
-const imgRandomGifLink = document.querySelector('#randomGif-container');
+const app               = document.querySelector('#app');
+const getGifBtn         = document.querySelector('#getGif');
+const imgRandomGif      = document.querySelector('#randomGif');
+const imgRandomGifLink  = document.querySelector('#randomGif-container');
 
 function getAndShowNewRandomGif() {
     removeRandomGif();

@@ -1,0 +1,46 @@
+#app {
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 10px;
+}
+
+.gif-container {
+    height: 320px;
+    background: gray;
+}
+
+.gif-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#refresh {
+    display: block;
+    background-color: #61dafb;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#refresh:active {
+    background-color: #6fc0d6;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#amountOfGifs {
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    padding-left: 10px;
+}
