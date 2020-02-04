@@ -14,7 +14,7 @@ function removeGifs() {
     while (app.firstChild) {
         app.removeChild(app.firstChild);
     }
-}
+};
 
 function setAmountOfGifs() {
     let value = +inputAmountOfGifs.value;
@@ -28,14 +28,14 @@ function setAmountOfGifs() {
         console.error(error);
         inputAmountOfGifs.value = '';
     }
-}
+};
 
 function getGifs() {
     const url = setFetchUrl();
     fetch(url)
         .then(rawData => rawData.json())
         .then(dataJson => showGifs(dataJson));
-}
+};
 
 function setFetchUrl() {
     return `https://api.giphy.com/v1/gifs/trending?api_key=cRZXFakx9LE0r5Obsnt8ZeL7cSa9tofQ&limit=${amountOfGifs}&rating=G`;

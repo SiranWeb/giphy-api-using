@@ -36,3 +36,16 @@ h2 {
     color: #fff;
 }
 
+button {
+    display: block;
+    background-color: #61dafb;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+button:active {
+    background-color: #6fc0d6;
+}

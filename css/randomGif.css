@@ -5,14 +5,6 @@
 
 #getGif {
     display: block;
-    margin: 40px auto;
-    background-color: #61dafb;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-}
-
-#getGif:active {
-    background-color: #6fc0d6;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }

@@ -17,20 +17,6 @@
     object-fit: cover;
 }
 
-#refresh {
-    display: block;
-    background-color: #61dafb;
-    border: none;
-    margin: 5px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-}
-
-#refresh:active {
-    background-color: #6fc0d6;
-}
-
 .input-container {
     display: flex;
     align-items: center;
